@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerDatalayer.Webforms", "customer-webforms\CustomerDatalayer.Webforms.csproj", "{1DF862B3-F6C5-47D4-9202-8B5677CE66BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FCE5DBCB-F8B9-4936-AA9C-6998877D7B9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerDatalayer", "CustomerDatalayer\CustomerDatalayer.csproj", "{F42889A5-49B0-4741-B9D6-5E0333CA17D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DF862B3-F6C5-47D4-9202-8B5677CE66BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF862B3-F6C5-47D4-9202-8B5677CE66BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF862B3-F6C5-47D4-9202-8B5677CE66BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF862B3-F6C5-47D4-9202-8B5677CE66BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42889A5-49B0-4741-B9D6-5E0333CA17D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42889A5-49B0-4741-B9D6-5E0333CA17D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42889A5-49B0-4741-B9D6-5E0333CA17D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42889A5-49B0-4741-B9D6-5E0333CA17D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DF862B3-F6C5-47D4-9202-8B5677CE66BC} = {FCE5DBCB-F8B9-4936-AA9C-6998877D7B9B}
+		{F42889A5-49B0-4741-B9D6-5E0333CA17D8} = {FCE5DBCB-F8B9-4936-AA9C-6998877D7B9B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE2F24ED-BF6F-4FCF-96DD-5E7209A06E9F}
+	EndGlobalSection
+EndGlobal
